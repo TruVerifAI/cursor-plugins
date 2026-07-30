@@ -1,0 +1,14 @@
+{
+  "name": "truverifai",
+  "owner": {
+    "name": "TruVerifAI",
+    "email": "support@truverif.ai"
+  },
+  "plugins": [
+    {
+      "name": "panel-review",
+      "source": "./panel-review",
+      "description": "Four-frontier-model code review with proactive write/commit gates. Privacy-locked: only a repo fingerprint + content hashes leave your machine."
+    }
+  ]
+}

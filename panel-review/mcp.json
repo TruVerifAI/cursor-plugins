@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "truverifai": {
+      "url": "https://mcp.truverif.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${TVAI_API_KEY}"
+      }
+    }
+  }
+}

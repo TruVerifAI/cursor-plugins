@@ -1,0 +1,35 @@
+{
+  "name": "panel-review",
+  "description": "Multi-model second-opinion review for high-stakes changes, with proactive review gates. Four frontier models deliberate; a local classifier gates risky writes and commits until a review covers them.",
+  "version": "0.18.0",
+  "author": {
+    "name": "TruVerifAI",
+    "email": "support@truverif.ai"
+  },
+  "homepage": "https://truverif.ai/mcp",
+  "repository": "https://github.com/TruVerifAI/cursor-plugins",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "audit",
+    "mcp",
+    "multi-model",
+    "second-opinion"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "TVAI_API_KEY": {
+        "type": "string",
+        "title": "TruVerifAI API key",
+        "description": "Your tvai_... key. Create one at https://truverif.ai/settings/api-keys or run `npx @truverifai/init`."
+      }
+    },
+    "required": [
+      "TVAI_API_KEY"
+    ]
+  }
+}
