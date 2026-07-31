@@ -1,7 +1,7 @@
 {
   "name": "panel-review",
   "description": "Multi-model second-opinion review for high-stakes changes, with proactive review gates. Four frontier models deliberate; a local classifier gates risky writes and commits until a review covers them.",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "author": {
     "name": "TruVerifAI",
     "email": "support@truverif.ai"
@@ -17,7 +17,6 @@
     "second-opinion"
   ],
   "skills": "./skills/",
-  "hooks": "./hooks/hooks.json",
   "mcpServers": "./mcp.json",
   "variables": {
     "type": "object",
