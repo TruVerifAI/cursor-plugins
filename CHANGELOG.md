@@ -1,5 +1,8 @@
 # Changelog — panel-review for Cursor
 
+## 0.18.4
+- `define-custom-floors` skill: broader, more thorough first-draft authoring.
+
 
 ## 0.18.3
 - Custom floor classes: adds the `define-custom-floors` skill. Gate enforcement
