@@ -1,6 +1,10 @@
 # Changelog — panel-review for Cursor
 
 
+## 0.18.3
+- Custom floor classes: adds the `define-custom-floors` skill. Gate enforcement
+  ships via the npm `@truverifai/init` vendored gates (cli_vendor 0.19.39).
+
 ## 0.18.2
 
 - **Server identity is now declared properly instead of inferred.** The plugin
