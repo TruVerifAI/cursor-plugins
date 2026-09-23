@@ -1,5 +1,11 @@
 # Changelog — panel-review for Cursor
 
+## 0.18.9
+- Skills copy sync with gate core 0.19.49: the skip-gate skill states that
+  gate_context_ids are exactly gc_ + 32 hex and must be forwarded verbatim
+  (never reconstructed), names the two id-free recoveries when a skip
+  dead-ends, and tells floor tools to forward BOTH printed lines (the id
+  and target_hunk_hashes), always.
 ## 0.18.8
 - Skills copy sync with gate core 0.19.46: the commit gate now also prints
   `target_hunk_hashes` (A5), so the skip-gate and audit skills no longer
